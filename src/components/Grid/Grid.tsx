@@ -10,7 +10,7 @@ export const Grid: React.FC<GridProps> = ({ rowNumber, newColor }) => {
   const rows = [];
   for (let i = 0; i < rowNumber; i++) {
     rows.push(
-      <Row key={`Row_${i}`} squareNumber={rowNumber} newColor={newColor} />
+      <Row key={`Row_${i}`} pixelNumber={rowNumber} newColor={newColor} />
     );
   }
   return (

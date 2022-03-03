@@ -1,22 +1,22 @@
 import React from "react";
-import { Square } from "../Square/Square";
+import { Pixel } from "../Square/Pixel";
 import "./Row.css";
 
 interface RowProps {
-  squareNumber: number;
+  pixelNumber: number;
   newColor: string;
 }
 
-export const Row: React.FC<RowProps> = ({ squareNumber, newColor }) => {
-  const squares = [];
+export const Row: React.FC<RowProps> = ({ pixelNumber, newColor }) => {
+  const pixels = [];
 
-  for (let i = 0; i < squareNumber; i++) {
-    squares.push(<Square key={`Square_${i}`} newColor={newColor} />);
+  for (let i = 0; i < pixelNumber; i++) {
+    pixels.push(<Pixel key={`Pixel_${i}`} newColor={newColor} />);
   }
 
   return (
     <>
-      <div className="row">{squares}</div>
+      <div className="row">{pixels}</div>
     </>
   );
 };
