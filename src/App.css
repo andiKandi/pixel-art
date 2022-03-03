@@ -1,0 +1,49 @@
+.header {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+
+
+.button {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  width: 4.5em;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  padding: 0 1em;
+  text-align: center;
+  transition: box-shadow .2s ease-in-out;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin: 0 0.2em 0.2em 0
+}
+
+.button:not([disabled]):focus {
+  box-shadow: 0 0 .25em rgba(0, 0, 0, 0.5), -.125em -.125em 1em rgba(239, 71, 101, 0.5), .125em .125em 1em rgba(255, 154, 90, 0.5);
+}
+
+.button:not([disabled]):hover {
+  box-shadow: 0 0 .25em rgba(0, 0, 0, 0.5), -.125em -.125em 1em rgba(239, 71, 101, 0.5), .125em .125em 1em rgba(255, 154, 90, 0.5);
+}
+
+aside {
+  width: 10.625em;
+  margin-left: 2em;
+}
+
+h2 {
+  margin: 0 0 0.2em 0;
+}

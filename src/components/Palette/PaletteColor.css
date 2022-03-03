@@ -1,0 +1,14 @@
+.palette__color {
+    height: 2.5em;
+    width: 2.5em;
+    border: black solid 1px;
+    cursor: pointer;
+}
+
+.palette__color--chosen {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    border: black dashed 1px;
+    cursor: pointer;
+}
